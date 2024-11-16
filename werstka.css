@@ -1,0 +1,20 @@
+/* Стили для десктопной версии */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Стили для планшетной версии */
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* Стили для мобильной версии */
+@media (max-width: 480px) {
+    .container {
+        max-width: 480px;
+    }
+}
